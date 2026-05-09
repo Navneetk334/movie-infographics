@@ -12,11 +12,9 @@ A professional data visualisation project that generates high-density, print-rea
 - **Premium Aesthetics**: IMDb-inspired dark mode design system.
 
 ## 📂 Project Structure
+- `/public`: Web-facing assets (HTML, CSS, SVG, PDF).
 - `/data`: JSON datasets for movies and metrics.
-- `/svg`: Exported vector infographics.
-- `/pdf`: Exported print reports.
 - `/fonts`: Premium source fonts (Bebas Neue, Anton, etc.).
-- `/assets`: Brand assets and supplementary images.
 
 ## 🚀 Getting Started
 

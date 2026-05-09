@@ -98,6 +98,6 @@ let svg = `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" x
   `).join('')}
 </svg>`;
 
-const outputPath = path.join(__dirname, 'svg', 'movie_infographic.svg');
+const outputPath = path.join(__dirname, 'public', 'svg', 'movie_infographic.svg');
 fs.writeFileSync(outputPath, svg);
 console.log(`Portable SVG generated with embedded fonts: ${outputPath}`);

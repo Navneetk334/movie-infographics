@@ -246,6 +246,6 @@ let svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${heig
 
 </svg>`;
 
-const outputPath = path.join(__dirname, 'svg', 'editorial_infographic.svg');
+const outputPath = path.join(__dirname, 'public', 'svg', 'editorial_infographic.svg');
 fs.writeFileSync(outputPath, svg);
 console.log(`Editorial infographic generated: ${outputPath}`);
