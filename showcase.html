@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Infographics | Showcase</title>
+    <style>
+        :root {
+            --bg: #050505;
+            --accent: #f5c518;
+            --text: #ffffff;
+            --subtext: #888;
+            --font: 'Inter', system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: var(--font);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 60px 20px;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 4rem;
+            letter-spacing: 4px;
+            margin-bottom: 40px;
+            background: linear-gradient(to bottom, #fff, #666);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .infographic-wrapper {
+            position: relative;
+            background: #111;
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.8);
+            transition: transform 0.3s ease;
+        }
+
+        .infographic-wrapper:hover {
+            transform: translateY(-10px);
+            border-color: var(--accent);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .download-container {
+            margin-top: 60px;
+        }
+
+        .download-btn {
+            background-color: var(--accent);
+            color: #000;
+            text-decoration: none;
+            padding: 18px 36px;
+            border-radius: 8px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.2s ease;
+            display: inline-block;
+        }
+
+        .download-btn:hover {
+            background-color: #fff;
+            transform: scale(1.05);
+            box-shadow: 0 0 30px rgba(245, 197, 24, 0.4);
+        }
+
+        .footer {
+            margin-top: 100px;
+            color: var(--subtext);
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1>IMDb Style Movie Infographics</h1>
+
+        <div class="infographic-wrapper">
+            <!-- Using the generated editorial infographic -->
+            <img src="svg/editorial_infographic.svg" alt="IMDb Style Movie Infographic">
+        </div>
+
+        <div class="download-container">
+            <a href="pdf/report.pdf" download class="download-btn">
+                Download Print PDF
+            </a>
+        </div>
+
+        <div class="footer">
+            EXPERIMENTAL DATA VISUALISATION LAB // 2026
+        </div>
+    </div>
+
+</body>
+</html>

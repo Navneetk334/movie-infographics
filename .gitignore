@@ -1,0 +1,16 @@
+# Environment Variables
+.env
+.env.*
+
+# Dependencies
+node_modules/
+.npm
+dist/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Project Specific
+pdf/*.pdf
+exports/

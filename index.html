@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinematic Data Visualisation | Editorial Infographic</title>
+    <meta name="description" content="A professional, high-density editorial infographic exploring landmark cinematic history and data trends.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">ANTIGRAVITY / VISUALS</div>
+        <nav>
+            <a href="data/movie_extended.json" target="_blank" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.8rem;">View Raw Data</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h1>CINEMATIC ANTHOLOGY</h1>
+            <p>A professional editorial study on the evolution of film, rating dynamics, and global language diversity from 1950 to 2024.</p>
+        </section>
+
+        <section class="infographic-container">
+            <img src="svg/editorial_infographic.svg" alt="Cinematic Editorial Infographic" id="main-infographic">
+        </section>
+
+        <section class="controls">
+            <a href="svg/editorial_infographic.svg" download="Cinematic_Anthology_2024.svg" class="btn btn-primary">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Download SVG
+            </a>
+            <button class="btn btn-secondary" onclick="window.print()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                Print to PDF
+            </button>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; color: var(--text-secondary); font-size: 0.9rem; border-top: 1px solid rgba(255,255,255,0.05);">
+        &copy; 2026 Antigravity Data Visualisation Lab. All rights reserved.
+    </footer>
+
+    <script>
+        // Simple micro-interaction for the image
+        const img = document.getElementById('main-infographic');
+        img.addEventListener('mousemove', (e) => {
+            const { left, top, width, height } = img.getBoundingClientRect();
+            const x = (e.clientX - left) / width - 0.5;
+            const y = (e.clientY - top) / height - 0.5;
+            
+            img.style.transform = `perspective(1000px) rotateY(${x * 2}deg) rotateX(${-y * 2}deg)`;
+        });
+
+        img.addEventListener('mouseleave', () => {
+            img.style.transform = 'perspective(1000px) rotateY(0deg) rotateX(0deg)';
+        });
+    </script>
+</body>
+</html>

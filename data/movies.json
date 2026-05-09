@@ -1,0 +1,23 @@
+{
+  "movies": [
+    {
+      "name": "Inception",
+      "color": "rgba(0, 150, 255, 0.6)",
+      "stroke": "rgba(0, 150, 255, 1)",
+      "values": [95, 90, 75, 80, 95]
+    },
+    {
+      "name": "The Dark Knight",
+      "color": "rgba(0, 255, 100, 0.6)",
+      "stroke": "rgba(0, 255, 100, 1)",
+      "values": [85, 80, 85, 95, 90]
+    },
+    {
+      "name": "Interstellar",
+      "color": "rgba(150, 50, 255, 0.6)",
+      "stroke": "rgba(150, 50, 255, 1)",
+      "values": [90, 98, 95, 70, 99]
+    }
+  ],
+  "labels": ["Plot Complexity", "Visual Effects", "Emotional Depth", "Action", "Sound Design"]
+}

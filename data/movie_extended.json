@@ -1,0 +1,29 @@
+{
+  "movies": [
+    { "title": "The Shawshank Redemption", "year": 1994, "rating": 9.3, "popularity": 100, "genre": "Drama", "actors": ["Morgan Freeman", "Tim Robbins"], "language": "English" },
+    { "title": "The Godfather", "year": 1972, "rating": 9.2, "popularity": 98, "genre": "Crime", "actors": ["Marlon Brando", "Al Pacino"], "language": "English" },
+    { "title": "Spirited Away", "year": 2001, "rating": 8.6, "popularity": 85, "genre": "Animation", "actors": ["Rumi Hiiragi"], "language": "Japanese" },
+    { "title": "Parasite", "year": 2019, "rating": 8.5, "popularity": 92, "genre": "Thriller", "actors": ["Song Kang-ho"], "language": "Korean" },
+    { "title": "Dune: Part Two", "year": 2024, "rating": 8.6, "popularity": 95, "genre": "Sci-Fi", "actors": ["Timothée Chalamet", "Zendaya"], "language": "English" },
+    { "title": "Everything Everywhere All At Once", "year": 2022, "rating": 7.8, "popularity": 88, "genre": "Sci-Fi", "actors": ["Michelle Yeoh"], "language": "English" },
+    { "title": "Amélie", "year": 2001, "rating": 8.3, "popularity": 80, "genre": "Comedy", "actors": ["Audrey Tautou"], "language": "French" },
+    { "title": "The Dark Knight", "year": 2008, "rating": 9.0, "popularity": 99, "genre": "Action", "actors": ["Christian Bale", "Heath Ledger"], "language": "English" },
+    { "title": "Pulp Fiction", "year": 1994, "rating": 8.9, "popularity": 97, "genre": "Crime", "actors": ["John Travolta", "Uma Thurman"], "language": "English" },
+    { "title": "Inception", "year": 2010, "rating": 8.8, "popularity": 96, "genre": "Sci-Fi", "actors": ["Leonardo DiCaprio"], "language": "English" },
+    { "title": "Interstellar", "year": 2014, "rating": 8.7, "popularity": 94, "genre": "Adventure", "actors": ["Matthew McConaughey"], "language": "English" },
+    { "title": "Seven Samurai", "year": 1954, "rating": 8.6, "popularity": 75, "genre": "Action", "actors": ["Toshiro Mifune"], "language": "Japanese" },
+    { "title": "Cinema Paradiso", "year": 1988, "rating": 8.5, "popularity": 70, "genre": "Drama", "actors": ["Philippe Noiret"], "language": "Italian" },
+    { "title": "Pan's Labyrinth", "year": 2006, "rating": 8.2, "popularity": 82, "genre": "Fantasy", "actors": ["Ivana Baquero"], "language": "Spanish" },
+    { "title": "The Intouchables", "year": 2011, "rating": 8.5, "popularity": 84, "genre": "Biography", "actors": ["François Cluzet"], "language": "French" },
+    { "title": "RRR", "year": 2022, "rating": 7.8, "popularity": 86, "genre": "Action", "actors": ["N.T. Rama Rao Jr.", "Ram Charan"], "language": "Telugu" },
+    { "title": "Oldboy", "year": 2003, "rating": 8.4, "popularity": 83, "genre": "Action", "actors": ["Choi Min-sik"], "language": "Korean" },
+    { "title": "City of God", "year": 2002, "rating": 8.6, "popularity": 81, "genre": "Crime", "actors": ["Alexandre Rodrigues"], "language": "Portuguese" },
+    { "title": "Crouching Tiger, Hidden Dragon", "year": 2000, "rating": 7.9, "popularity": 78, "genre": "Action", "actors": ["Chow Yun-fat"], "language": "Mandarin" },
+    { "title": "Amadeus", "year": 1984, "rating": 8.4, "popularity": 76, "genre": "Biography", "actors": ["F. Murray Abraham"], "language": "English" },
+    { "title": "Joker", "year": 2019, "rating": 8.4, "popularity": 93, "genre": "Crime", "actors": ["Joaquin Phoenix"], "language": "English" },
+    { "title": "Gladiator", "year": 2000, "rating": 8.5, "popularity": 91, "genre": "Action", "actors": ["Russell Crowe"], "language": "English" },
+    { "title": "Avengers: Endgame", "year": 2019, "rating": 8.4, "popularity": 97, "genre": "Action", "actors": ["Robert Downey Jr."], "language": "English" },
+    { "title": "The Matrix", "year": 1999, "rating": 8.7, "popularity": 95, "genre": "Sci-Fi", "actors": ["Keanu Reeves"], "language": "English" },
+    { "title": "Forrest Gump", "year": 1994, "rating": 8.8, "popularity": 96, "genre": "Drama", "actors": ["Tom Hanks"], "language": "English" }
+  ]
+}
